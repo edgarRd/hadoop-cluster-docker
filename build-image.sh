@@ -2,7 +2,7 @@
 
 echo ""
 
-echo -e "\nbuild docker hadoop image\n"
-docker build -t hadoop-cluster:1.0 .
+echo -e "\nbuild docker hdfs image\n"
+docker build -t hdfs-cluster:2.8.5 .
 
 echo ""
